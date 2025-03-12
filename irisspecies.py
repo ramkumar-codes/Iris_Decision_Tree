@@ -22,7 +22,7 @@ def get_petal_width():
 
 
 def predict_species(sl,sw,pl,pw):
-    loaded_model = pickle.load(open('irismodel.pkl','rb'))
+    loaded_model = pickle.load(open('irismodel2.pkl','rb'))
     new_data = [[float(sl),float(sw),float(pl),float(pw)]]
     prediction = loaded_model.predict(new_data)
     st.write("Prediction with new data: ")
