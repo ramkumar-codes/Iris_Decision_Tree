@@ -40,10 +40,12 @@ if __name__ == "__main__":
     petal_width = get_petal_width()
    
     st.write("The parameters you entered are: ")
+    st.write("Sepal length ", sepal_length)
+    st.write("Sepal Width ", sepal_width)
     st.write("petal length ", petal_length)
     st.write("petal width ", petal_width)
-    st.write("Sepal Width ", sepal_width)
-    st.write("Sepal length ", sepal_length)
+    
+    
 
 
 
